@@ -48,29 +48,19 @@ The following tools were used for building this project:
   Web
 </h3>
 
-<!--
-1853 / 2180
-1848 / 982
--->
-
-<div style="display: flex; justify-content: center; margin-bottom: 30px;">
-    <img alt="ScreenCapture Web" src="./.github/screencapture-web.png" width="350px" height="411,764705882px" style="margin-right: 45px;" />
-    <img alt="Screenshot Web" src="./.github/screenshot-web.png" width="350px" height="185,984848485px" />
-</div>
+<p align="center">
+  <img alt="ScreenCapture Web" src="./.github/screencapture-web.png" width="350px" height="411,764705882px" hspace="50" />
+  <img alt="Screenshot Web" src="./.github/screenshot-web.png" width="450px" height="239,123376623px" align="top" />
+</p>
 
 <h3 align="center">
   Mobile
 </h3>
 
-<!--
-375 / 1642 <-> 350 / 1532,533333333 <->228,380024361 / 1000
-373 / 811
--->
-
-<div style="display: flex; justify-content: center;">
-    <img alt="ScreenCapture Mobile" src="./.github/screencapture-mobile.png" width="228,380024361px" height="1000px" style="margin-right: 45px;"  />
-    <img alt="Screenshot Mobile" src="./.github/screenshot-mobile.png" width="350px" height="760,991957105px" />
-</div>
+<p align="center">
+  <img alt="ScreenCapture Mobile" src="./.github/screencapture-mobile.png" width="228,380024361px" height="1000px" hspace="50" />
+  <img alt="Screenshot Mobile" src="./.github/screenshot-mobile.png" width="350px" height="760,991957105px" align="top" />
+</p>
 
 ---
 
