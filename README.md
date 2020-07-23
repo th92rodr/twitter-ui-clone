@@ -44,18 +44,18 @@ The following tools were used for building this project:
 
 ## Layout
 
-<h3 align="center">
+<h2 align="center">
   Web
-</h3>
+</h2>
 
 <p align="center">
-  <img alt="ScreenCapture Web" src="./.github/screencapture-web.png" width="350px" height="411,764705882px" hspace="50" />
-  <img alt="Screenshot Web" src="./.github/screenshot-web.png" width="450px" height="239,123376623px" align="top" />
+  <img alt="ScreenCapture Web" src="./.github/screencapture-web.png" width="600px" height="983,458646617px" hspace="50" />
+  <img alt="Screenshot Web" src="./.github/screenshot-web.png" width="850px" height="547,344262295px" align="top" />
 </p>
 
-<h3 align="center">
+<h2 align="center">
   Mobile
-</h3>
+</h2>
 
 <p align="center">
   <img alt="ScreenCapture Mobile" src="./.github/screencapture-mobile.png" width="228,380024361px" height="1000px" hspace="50" />
