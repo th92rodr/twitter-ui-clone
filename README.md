@@ -5,19 +5,19 @@
 <p align="center">A responsive UI clone of Twitter.</p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/th92rodr/twitter-ui-clone?color=red" />
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/th92rodr/twitter-ui-clone?color=blue" />
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/th92rodr/twitter-ui-clone?color=7159c1" />
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/th92rodr/twitter-ui-clone?color=b24c63" />
   <a href="https://github.com/th92rodr/twitter-ui-clone/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/th92rodr/twitter-ui-clone?color=brightgreen" />
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/th92rodr/twitter-ui-clone?color=3675d3" />
   </a>
-   <img alt="License" src="https://img.shields.io/badge/license-MIT-blueviolet" />
-   <a href="https://github.com/th92rodr/twitter-ui-clone/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/th92rodr/rainy-day?style=social" />
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-fff?color=1A424F" />
+  <a href="https://github.com/th92rodr/twitter-ui-clone/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/th92rodr/twitter-ui-clone?style=social" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.repostatus.org/"><img src="https://www.repostatus.org/badges/latest/inactive.svg" alt="Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed." /></a>
+  <img src="https://img.shields.io/badge/repo status-Done-fff?style=flat&color=47A248" alt="Done - The project has been finalized." />
 </p>
 
 <p align="center">
