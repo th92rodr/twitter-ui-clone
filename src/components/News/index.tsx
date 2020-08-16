@@ -7,7 +7,7 @@ interface Props {
   title: string;
 }
 
-const FollowSuggestion: React.FC<Props> = ({ subject, title }) => {
+const News: React.FC<Props> = ({ subject, title }) => {
   return (
     <Container>
       <span>{subject}</span>
@@ -16,4 +16,4 @@ const FollowSuggestion: React.FC<Props> = ({ subject, title }) => {
   );
 };
 
-export default FollowSuggestion;
+export default News;
