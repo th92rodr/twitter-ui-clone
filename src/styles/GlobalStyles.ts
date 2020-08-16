@@ -8,7 +8,7 @@ export default createGlobalStyle`
 
     color: var(--white);
   }
-  html, border-style, #root {
+  html, body, #root {
     max-height: 100vh;
     max-width: 100vw;
 
