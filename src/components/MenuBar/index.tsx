@@ -17,7 +17,7 @@ import {
   ProfileData,
 } from './styles';
 
-const Layout: React.FC = () => {
+const MenuBar: React.FC = () => {
   return (
     <Container>
       <Topside>
@@ -40,7 +40,7 @@ const Layout: React.FC = () => {
 
         <MenuButton>
           <FavoriteIcon />
-          <span>Favoridados</span>
+          <span>Favoritados</span>
         </MenuButton>
 
         <MenuButton className='active'>
@@ -67,4 +67,4 @@ const Layout: React.FC = () => {
   );
 };
 
-export default Layout;
+export default MenuBar;
