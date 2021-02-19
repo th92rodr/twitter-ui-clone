@@ -23,7 +23,6 @@
 <p align="center">
  <a href="#about">About</a> •
  <a href="#tech-stack">Tech Stack</a> •
- <a href="#layout">Layout</a> •
  <a href="#how-it-works">How it works</a> •
  <a href="#license">License</a>
 </p>
@@ -41,28 +40,6 @@ The following tools were used for building this project:
 - [React.js](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled Components](https://www.styled-components.com/)
-
----
-
-## Layout
-
-<h2 align="center">
-  Web
-</h2>
-
-<p align="center">
-  <img alt="ScreenCapture Web" src="./.github/screencapture-web.png" width="600px" height="983,458646617px" hspace="50" />
-  <img alt="Screenshot Web" src="./.github/screenshot-web.png" width="850px" height="547,344262295px" align="top" />
-</p>
-
-<h2 align="center">
-  Mobile
-</h2>
-
-<p align="center">
-  <img alt="ScreenCapture Mobile" src="./.github/screencapture-mobile.png" width="228,380024361px" height="1000px" hspace="50" />
-  <img alt="Screenshot Mobile" src="./.github/screenshot-mobile.png" width="350px" height="760,991957105px" align="top" />
-</p>
 
 ---
 
