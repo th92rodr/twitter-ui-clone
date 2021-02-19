@@ -22,19 +22,19 @@ const ProfilePage: React.FC = () => {
       <ProfileData>
         <EditButton outlined>Editar perfil</EditButton>
 
-        <h1>Thiago Rodrigues</h1>
-        <h2>@th92rodr</h2>
+        <h1>John Doe</h1>
+        <h2>@johndoe99</h2>
 
         <p>Software Developer</p>
 
         <ul>
           <li>
             <LocationIcon />
-            Campinas, Brasil
+            Middle-earth
           </li>
           <li>
             <CakeIcon />
-            Nascido(a) em 4 de junho de 1997
+            Nascido(a) em 19 de setembro de 1990
           </li>
         </ul>
 
