@@ -18,40 +18,66 @@ import {
   LikeIcon,
 } from './styles';
 
-const Tweet: React.FC = () => {
+interface Props {
+  name: string;
+  username: string;
+  userAvatarUrl: string;
+  text: string;
+  date: string;
+  imageUrl?: string;
+  likes: number;
+  comments: number;
+  retweets: number;
+  isARetweet: boolean;
+}
+
+const Tweet: React.FC<Props> = ({
+  name,
+  username,
+  userAvatarUrl,
+  text,
+  date,
+  imageUrl,
+  isARetweet,
+  likes,
+  comments,
+  retweets,
+}) => {
   return (
     <Container>
-      <Retweeted>
-        <RocketseatIcon />
-        Você retweetou
-      </Retweeted>
+      {isARetweet && (
+        <Retweeted>
+          <RocketseatIcon />
+          Saruman retweetou
+        </Retweeted>
+      )}
 
       <Body>
-        <Avatar />
+        <Avatar url={userAvatarUrl} />
         <Content>
           <Header>
-            <strong>Rocketseat</strong>
-            <span>@rocketseat</span>
+            <strong>{name}</strong>
+            <span>{username}</span>
             <Dot />
-            <time>27 de jun</time>
+            <time>{date}</time>
           </Header>
 
-          {/* eslint-disable-next-line*/}
-          <Description>Foguete não tem ré 🚀️</Description>
+          <Description>{text}</Description>
 
-          <ImageContent />
+          {imageUrl && <ImageContent url={imageUrl} />}
+
           <Icons>
             <Status>
               <CommentIcon />
-              34
+              {comments}
             </Status>
             <Status>
               <RetweetIcon />
-              92
+              {retweets}
             </Status>
             <Status>
               <LikeIcon />
-              555
+              {likes}
             </Status>
           </Icons>
         </Content>
