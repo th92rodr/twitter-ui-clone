@@ -7,7 +7,6 @@ import {
   Avatar,
   ProfileData,
   LocationIcon,
-  CakeIcon,
   Followage,
   EditButton,
 } from './styles';
@@ -22,28 +21,24 @@ const ProfilePage: React.FC = () => {
       <ProfileData>
         <EditButton outlined>Editar perfil</EditButton>
 
-        <h1>John Doe</h1>
-        <h2>@johndoe99</h2>
+        <h1>Saruman</h1>
+        <h2>@saruman.the.white</h2>
 
-        <p>Software Developer</p>
+        <p>The White Wizard | Lord of Isengard | Head of the White Council</p>
 
         <ul>
           <li>
             <LocationIcon />
             Middle-earth
           </li>
-          <li>
-            <CakeIcon />
-            Nascido(a) em 19 de setembro de 1990
-          </li>
         </ul>
 
         <Followage>
           <span>
-            seguindo <strong>94</strong>
+            seguindo <strong>2</strong>
           </span>
           <span>
-            <strong>94 </strong> seguidores
+            <strong>94887 </strong> seguidores
           </span>
         </Followage>
       </ProfileData>

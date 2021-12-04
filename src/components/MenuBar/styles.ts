@@ -153,11 +153,14 @@ export const Botside = styled.div`
 export const Avatar = styled.div`
   width: 39px;
   height: 39px;
-
   flex-shrink: 0;
-
   border-radius: 50%;
+
   background: var(--gray);
+  background-image: url('https://i.pinimg.com/originals/a3/b7/a7/a3b7a7fab3ff446687c9e72156079953.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
 
 export const ProfileData = styled.div`

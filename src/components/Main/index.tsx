@@ -22,8 +22,8 @@ const Main: React.FC = () => {
         </button>
 
         <ProfileInfo>
-          <strong>John Doe</strong>
-          <span>250 Tweets</span>
+          <strong>Saruman</strong>
+          <span>12525 Tweets</span>
         </ProfileInfo>
       </Header>
 
