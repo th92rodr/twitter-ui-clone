@@ -13,10 +13,18 @@ export const Container = styled.div`
   }
 `;
 
-export const Avatar = styled.div`
+interface AvatarProps {
+  url: string;
+}
+
+export const Avatar = styled.div<AvatarProps>`
   width: 49px;
   height: 49px;
   background: var(--gray);
+  background-image: ${({ url }) => `url(${url})`};
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 50%;
   margin-right: 10px;
 `;
