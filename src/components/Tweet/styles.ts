@@ -40,12 +40,21 @@ export const Body = styled.div`
   position: relative;
 `;
 
-export const Avatar = styled.div`
+interface AvatarProps {
+  url: string;
+}
+
+export const Avatar = styled.div<AvatarProps>`
   width: 49px;
   height: 49px;
   border-radius: 50%;
   flex-shrink: 0;
+
   background: var(--gray);
+  background-image: ${({ url }) => `url(${url})`};
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   position: absolute;
   top: 0;
@@ -95,13 +104,20 @@ export const Description = styled.p`
   margin-top: 4px;
 `;
 
-export const ImageContent = styled.div`
+interface ImageContentProps {
+  url: string;
+}
+
+export const ImageContent = styled.div<ImageContentProps>`
   margin-top: 12px;
   width: 100%;
   height: min(285px, max(175px, 41vw));
-
-  background: var(--outline);
   border-radius: 14px;
+
+  background-image: ${({ url }) => `url(${url})`};
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 
   cursor: pointer;
 
