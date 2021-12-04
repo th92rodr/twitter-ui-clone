@@ -23,6 +23,10 @@ export const Banner = styled.div`
   height: min(33vw, 199px);
 
   background: var(--twitter);
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/545/646/416/saruman-the-lord-of-the-rings-wizard-beards-wallpaper-preview.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   position: relative;
 `;
@@ -32,8 +36,12 @@ export const Avatar = styled.div`
   height: max(45px, min(135px, 22vw));
 
   border: 3.75px solid var(--primary);
-  background: var(--gray);
   border-radius: 50%;
+  background: var(--gray);
+  background-image: url('https://i.pinimg.com/originals/a3/b7/a7/a3b7a7fab3ff446687c9e72156079953.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   position: absolute;
   bottom: max(-60px, -10vw);
