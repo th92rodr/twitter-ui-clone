@@ -50,20 +50,20 @@ The following tools were used for building this project:
 Before you begin, you will need to have the following tools installed on your machine:
 
 - `Node.js`<br />
-  recommend version 12.18
+  recommend version v12.22.12
 
   `Node` can be installed from `https://nodejs.org/en/`.
 
 - `NPM` or `Yarn`
 
   - `NPM`:<br />
-    recommend version 6.14
+    recommend version v6.14
 
     Installing `Node` will also install `NPM` automatically.
 
   - `Yarn`:<br />
-    recommend version 1.22<br />
-    required version 1.\*
+    recommend version v1.22<br />
+    required version v1.\*
 
     `Yarn` can be installed from `https://classic.yarnpkg.com/en/`.
 
