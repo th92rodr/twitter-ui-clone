@@ -9,6 +9,7 @@ import {
   ExitToApp,
   Rocketseat,
 } from '../../styles/Icons';
+import SarumanProfile from '../../assets/saruman_profile.jpg';
 
 export const Container = styled.div`
   display: none;
@@ -157,7 +158,7 @@ export const Avatar = styled.div`
   border-radius: 50%;
 
   background: var(--gray);
-  background-image: url('https://i.pinimg.com/originals/a3/b7/a7/a3b7a7fab3ff446687c9e72156079953.jpg');
+  background-image: url(${SarumanProfile});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -19,7 +19,7 @@ const ProfilePage: React.FC = () => {
       </Banner>
 
       <ProfileData>
-        <EditButton outlined>Editar perfil</EditButton>
+        <EditButton outlined>Edit profile</EditButton>
 
         <h1>Saruman</h1>
         <h2>@saruman.the.white</h2>
@@ -35,10 +35,10 @@ const ProfilePage: React.FC = () => {
 
         <Followage>
           <span>
-            seguindo <strong>2</strong>
+            following <strong>2</strong>
           </span>
           <span>
-            <strong>94887 </strong> seguidores
+            followers <strong>94887</strong>
           </span>
         </Followage>
       </ProfileData>

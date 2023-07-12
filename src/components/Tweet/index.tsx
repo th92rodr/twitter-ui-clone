@@ -48,7 +48,7 @@ const Tweet: React.FC<Props> = ({
       {isARetweet && (
         <Retweeted>
           <RocketseatIcon />
-          Saruman retweetou
+          Saruman retweeted
         </Retweeted>
       )}
 
