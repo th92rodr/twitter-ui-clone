@@ -2,6 +2,8 @@ import styled, { css } from 'styled-components';
 
 import Button from '../Button';
 import { LocationOn, Cake } from '../../styles/Icons';
+import SarumanProfile from '../../assets/saruman_profile.jpg';
+import SarumanWallpaper from '../../assets/saruman_wallpaper.jpg';
 
 export const Container = styled.div`
   display: flex;
@@ -23,7 +25,7 @@ export const Banner = styled.div`
   height: min(33vw, 199px);
 
   background: var(--twitter);
-  background-image: url('https://c4.wallpaperflare.com/wallpaper/545/646/416/saruman-the-lord-of-the-rings-wizard-beards-wallpaper-preview.jpg');
+  background-image: url(${SarumanWallpaper});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,7 +40,7 @@ export const Avatar = styled.div`
   border: 3.75px solid var(--primary);
   border-radius: 50%;
   background: var(--gray);
-  background-image: url('https://i.pinimg.com/originals/a3/b7/a7/a3b7a7fab3ff446687c9e72156079953.jpg');
+  background-image: url(${SarumanProfile});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,6 +116,10 @@ export const Followage = styled.div`
 
     & + span {
       margin-left: 20px;
+    }
+
+    > strong {
+      margin-left: 2px;
     }
   }
 `;
